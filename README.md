@@ -8,5 +8,6 @@
 `
 15 16 * * * cd ~/Dawn/ && sudo nohup sh sync.sh &
 `
+
 [https://crontab.guru/](https://crontab.guru/)
 
