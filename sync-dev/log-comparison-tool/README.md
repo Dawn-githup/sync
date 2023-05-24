@@ -13,13 +13,13 @@
 1. 克隆本仓库到本地计算机：
 
 ```
-git clone https://github.com/gpBlockchain/log-comparison-tool.git
+git clone https://github.com/gpBlockchain/sync.git
 ```
 
 2. 进入项目目录：
 
 ```
-cd log-comparison-tool
+cd sync/sync-dev/log-comparison-tool
 ```
 
 3. 创建和激活虚拟环境（可选，但建议）：
