@@ -13,7 +13,7 @@
 1. 克隆本仓库到本地计算机：
 
 ```
-git clone https://github.com/gpBlockchain/sync.git
+git clone https://github.com/Dawn-githup/sync.git
 ```
 
 2. 进入项目目录：
