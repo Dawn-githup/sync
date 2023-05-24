@@ -1,0 +1,25 @@
+<head>
+    <title>Compare Logs</title>
+</head>
+<body>
+<h1>Compare Logs</h1>
+
+<form action="/compare" method="POST">
+    <label for="log_files">Select log files:</label><br>
+    <select name="log_files" id="log_files" multiple>
+        {% for file in log_files %}
+        <option value="{{ file }}">{{ file }}</option>
+        {% endfor %}
+    </select><br><br>
+    <input type="submit" value="Compare">
+</form>
+
+<br>
+
+{% if plot_div %}
+<div>
+    {{ plot_div|safe }}
+</div>
+{% endif %}
+</body>
+</html>

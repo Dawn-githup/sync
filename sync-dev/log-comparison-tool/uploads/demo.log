@@ -1,0 +1,23 @@
+[1;30m2023-05-24 09:52:27.744 +00:00[0m [1;34mmain[0m INFO sentry  sentry is disabled
+[1;30m2023-05-24 09:52:27.744 +00:00[0m [1;34mmain[0m INFO ckb_bin::helper  raise_fd_limit newly-increased limit: 1048576
+[1;30m2023-05-24 09:52:27.827 +00:00[0m [1;34mmain[0m INFO ckb_bin::subcommand::run  ckb version: 0.111.0-pre (0890500 2023-05-22)
+[1;30m2023-05-24 09:52:27.827 +00:00[0m [1;34mmain[0m INFO ckb_launcher  Miner is disabled, edit ckb.toml to enable it
+[1;30m2023-05-24 09:52:28.029 +00:00[0m [1;34mmain[0m INFO ckb_db_migration  Init database version 20230206163640
+[1;30m2023-05-24 09:52:28.037 +00:00[0m [1;34mmain[0m INFO ckb_launcher  Touch chain spec hash: Byte32(0xc12a1eee15ee549b1413f89520e8ba32fb85f1422a6faae5e36dc4613dbfcb56)
+[1;30m2023-05-24 09:52:28.038 +00:00[0m [1;34mmain[0m INFO ckb_memory_tracker::process  track current process: disable
+[1;30m2023-05-24 09:52:28.038 +00:00[0m [1;34mmain[0m INFO ckb_launcher  chain genesis hash: 0x4824df0412a74ee5999ce313744b98a6ae6af4a4df7a269620939affcafaaa5c
+[1;30m2023-05-24 09:52:28.038 +00:00[0m [1;34mmain[0m INFO ckb_sync::types  header_map.memory_limit 256MB
+[1;30m2023-05-24 09:52:28.040 +00:00[0m [1;34mGlobalRt-7[0m INFO ckb_network::network  Listen on address: /ip4/0.0.0.0/tcp/8119
+[1;30m2023-05-24 09:52:28.040 +00:00[0m [1;34mGlobalRt-7[0m INFO ckb_network::network  p2p service event: ListenStarted { address: "/ip4/0.0.0.0/tcp/8119" }
+[1;30m2023-05-24 09:52:28.067 +00:00[0m [1;34mmain[0m INFO ckb_rpc::server  Listen HTTP RPCServer on address 127.0.0.1:8999
+[1;30m2023-05-24 09:52:28.217 +00:00[0m [1;34mGlobalRt-2[0m INFO ckb_sync::synchronizer  SyncProtocol.connected peer=SessionId(1)
+[1;30m2023-05-24 09:52:28.217 +00:00[0m [1;34mGlobalRt-7[0m INFO ckb_light_client_protocol_server  LightClient(3).connected peer=SessionId(1)
+[1;30m2023-05-24 09:52:28.217 +00:00[0m [1;34mGlobalRt-1[0m INFO ckb_relay  RelayProtocol(3).connected peer=SessionId(1)
+[1;30m2023-05-24 09:52:28.217 +00:00[0m [1;34mGlobalRt-5[0m INFO ckb_filter  FilterProtocol.connected peer=SessionId(1)
+[1;30m2023-05-24 09:52:28.217 +00:00[0m [1;34mGlobalRt-2[0m INFO ckb_sync::synchronizer::get_headers_process  Ignoring getheaders from peer=SessionId(1) because node is in initial block download
+[1;30m2023-05-24 09:52:29.163 +00:00[0m [1;34mChainService[0m INFO ckb_chain::chain  block: 1, hash: 0x71f69e4c138b0ec46d79329f7e754a5df323eaf7ac62e45db386b3e894488da0, epoch: 0(1/1000), total_diff: 0x200, txs: 1
+[1;30m2023-05-24 09:52:29.163 +00:00[0m [1;34mChainService[0m INFO ckb_chain::chain  block: 2, hash: 0x2d541e2d19898f120f520efcac9acb644df9b78ddddf94fbfa0100844cf1ab1b, epoch: 0(2/1000), total_diff: 0x300, txs: 1
+[1;30m2023-05-24 09:52:29.165 +00:00[0m [1;34mChainService[0m INFO ckb_chain::chain  block: 3, hash: 0x5b30203cb51b9bc953d6a866014b965f0628ae006c494adef0b941fbfd58de3a, epoch: 0(3/1000), total_diff: 0x400, txs: 1
+[1;30m2023-05-24 09:52:29.165 +00:00[0m [1;34mChainService[0m INFO ckb_chain::chain  block: 4, hash: 0x683baa8b7d4bcaa17ccec0622617a95208d1d0ef6f6957d186d03d982d1b9cbd, epoch: 0(4/1000), total_diff: 0x500, txs: 1
+[1;30m2023-05-24 09:52:29.166 +00:00[0m [1;34mChainService[0m INFO ckb_chain::chain  block: 5, hash: 0xde7c28cceb59c6a18c067374490f199ea8e4c72ecceb3640c24c4d6e900c75c5, epoch: 0(5/1000), total_diff: 0x600, txs: 1
+[1;30m2023-05-24 09:52:29.167 +00:00[0m [1;34mChainService[0m INFO ckb_chain::chain  block: 6, hash: 0x4c45a2c815b5bfc149e58898965017de85249d362a5d48535aa372d047955fa3, epoch: 0(6/1000), total_diff: 0x700, txs: 1
