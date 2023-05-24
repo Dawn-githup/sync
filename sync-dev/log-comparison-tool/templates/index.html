@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log Upload</title>
+    <script>
+        function addFileInput() {
+            var container = document.getElementById("file-container");
+            var input = document.createElement("input");
+            input.type = "file";
+            input.name = "files";
+            input.accept = ".txt";
+            container.appendChild(input);
+        }
+    </script>
+</head>
+<body>
+    <h1>Upload Log Files</h1>
+    <form action="/plot" method="post" enctype="multipart/form-data">
+        <div id="file-container">
+            <input type="file" name="files" accept=".txt">
+        </div>
+        <button type="button" onclick="addFileInput()">Add File</button>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
